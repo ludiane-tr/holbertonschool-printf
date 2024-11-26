@@ -10,6 +10,9 @@
 
 /* Prototype */
 
+int _putchar(char c);
 int _printf(const char *format, ...);
+int _char (va_list args);
+int _percent(va_list args);
 
 #endif
