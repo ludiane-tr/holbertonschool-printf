@@ -8,7 +8,7 @@
 int _str(va_list args)
 {
 	int i = 0;
-	char *str = va_args(args, char *);
+	char *str = va_arg(args, char *);
 
 	if (str == NULL)
 	{
