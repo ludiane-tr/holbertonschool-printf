@@ -6,12 +6,11 @@
  *Return: total of characters
  */
 
-void _int(va_list args)
+int _int(va_list args)
 {
 	int result = 0;
 	long int numb = va_arg(args, int);
 	long int div = 1;
-	int i = 0;
 	int digit;
 
 	if (numb < 0)

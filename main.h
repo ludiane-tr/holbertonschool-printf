@@ -19,17 +19,18 @@
 
 typedef struct spe
 {
-	char *spe;
+	char spe;
 	int (*f)(va_list);
 } spe_t;
 
-/* Prototype */
+/* Prototypes */
 
 int _printf(const char *format, ...);
-void _int(va_list args);
+int _int(va_list args);
 int _str(va_list args);
 int _putchar(char c);
 int _char (va_list args);
 int _percent(va_list args);
+int _format(const char result, va_list args);
 
 #endif
