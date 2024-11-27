@@ -10,23 +10,23 @@
 int _format(const char result, va_list args)
 {
 	spe_t sps[] = {
-		{"s", _str},
-		{"c", _char},
-		{"d", _int},
-		{"i", _int},
-		{"%", _percent},
-		{NULL, NULL}
+		{'s', _str},
+		{'c', _char},
+		{'d', _int},
+		{'i', _int},
+		{'%', _percent},
+		{0, NULL}
 	};
 	int i = 0;
 
 	while (sps[i].spe)
 	{
 		if (result == sps[i].spe)
-		return (sps[i].f(args));
+			return (sps[i].f(args));
 		i++;
 	}
 	_putchar('%');
-	_putchar(result)
+	_putchar(result);
 
 	return (2);
 }
