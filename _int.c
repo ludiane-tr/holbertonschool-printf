@@ -3,15 +3,16 @@
 /**
  *_int - function permit to print an integer
  *@args: argumets of va_list
- *Return: Void
+ *Return: total of characters
  */
 
 void _int(va_list args)
 {
 	int result = 0;
 	long int numb = va_arg(args, int);
-	char stk[20];
+	long int div = 1;
 	int i = 0;
+	int digit;
 
 	if (numb < 0)
 	{
@@ -19,21 +20,17 @@ void _int(va_list args)
 		numb = -numb;
 		result++;
 	}
-	if (numb == 0)
+	while (numb / div >= 10)
 	{
-		_putchar('0');
+		div *= 10;
+	}
+	while (div > 0)
+	{
+		digit = numb / div;
+		_putchar(digit + '0');
 		result++;
-		return;
+		numb %= div;
+		div /= 10;
 	}
-	while (numb > 0)
-	{
-		stk[i++] = (numb % 10) + '0';
-		numb /= 10;
-	}
-	while (i > 0)
-	{
-		_putchar(stk[--i]);
-			result++;
-	}
-
+	return (result);
 }
