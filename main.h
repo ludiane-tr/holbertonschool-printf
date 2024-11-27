@@ -13,7 +13,7 @@
 
 /**
  * struct spe - struct specifiers
- * @spe: specifier that indicate the type and result.
+ * @spe: specifiers that indicate the type and result.
  * @f: fonction pointer
  */
 
