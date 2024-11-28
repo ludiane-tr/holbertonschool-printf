@@ -4,8 +4,8 @@
 
 ### function description:
 > This Function recreate a part of fonctionalities of Printf.
-> The new function is called '_printf'.
-> The new function use a standard library.
+The new function is called '_printf'.
+The new function use a standard library.
 
 ### Fonctions Prototypes:
 
