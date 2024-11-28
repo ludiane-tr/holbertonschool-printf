@@ -98,4 +98,3 @@ while (sps[i].spe) <br />
 ## Autors
 > **TROUILLEFOU Ludiane** (ludiane-tr) C#25  <br />
 > **BAROUX Jordan** (JoBEph) C#25 <br />
->>>>>>> JoBEph
