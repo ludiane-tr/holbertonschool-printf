@@ -9,23 +9,13 @@
 
 ### Compilation command:
 
-> gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.
+> gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 
 ### function description:
 This Function recreate a part of fonctionalities of printf(). <br />
 The new function is called '_printf'. <br />
 The new function use a standard library. <br />
-
-### Fonctions Prototypes:
-
-int _printf(const char *format, ...); <br />
-int _int(va_list args); <br />
-int _str(va_list args); <br />
-int _putchar(char c); <br />
-int _char (va_list args); <br />
-int _percent(va_list args); <br />
-int _format(const char result, va_list args); <br />
 
 ### Requirments:
 - [x] Allowed editors : vi, vim, emacs <br />
@@ -35,7 +25,9 @@ int _format(const char result, va_list args); <br />
 - [x] We have no more than five functions per file <br />
 - [x] All function prototypes can be found in main.h <br />
 
-## Files:
+## Contain:
+
+### Files:
 - **_percent.c:** 'function write the percent specifiers' <br />
 - **_char.c:** 'function print char' <br />
 - **_int.c:** 'function print a integer' <br />
@@ -47,6 +39,24 @@ int _format(const char result, va_list args); <br />
 - **main.h:** 'The header file contain all prototypes, libraries and the struct' <br />
 - **man_3_printf:** 'Manuel _printf'
 
+### Fonctions Prototypes:
+
+int _printf(const char *format, ...); <br />
+int _int(va_list args); <br />
+int _str(va_list args); <br />
+int _putchar(char c); <br />
+int _char (va_list args); <br />
+int _percent(va_list args); <br />
+int _format(const char result, va_list args); <br />
+
+### Specifiers:
+| **Specifiers**|         Description           |
+|:-------------:|:-----------------------------:|
+|  **%c**       |Print a single character       |
+|  **%s**       |Print a string of character    |
+|  **%%**       |Print a percent character      |
+|  **%d**       |Print a decimal number         |
+|  **%i**       |Print an integer number        |
 ## Autors
 > **TROUILLEFOU Ludiane** (ludiane-tr) C#25  <br />
 > **BAROUX Jordan** (JoBEph) C#25 <br />
