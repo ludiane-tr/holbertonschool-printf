@@ -5,6 +5,7 @@
 ### Environment:
 
 - Ubuntu 22.04
+- GitHub
 
 ### Betty style:
 
@@ -64,8 +65,22 @@ The function write to the standard outpout. <br />
 |  **%i**       |Print an integer number in base 10        |
 
 ### Exemple code:
+- **_printf:** <br />
+if (!format || (format[0] == '%' && !format[1])) <br />
+		return (-1); <br />
 
+- **_int:** <br />
+if (numb < 0) <br />
+	{ <br />
+		_putchar('-'); <br />
+		numb = -numb; <br />
+		result++; <br />
 
+- **format.c** <br />
+while (sps[i].spe) <br />
+	{ <br />
+		if (result == sps[i].spe) <br />
+			return (sps[i].f(args)); <br />
 
 ## Flow chart:
 
