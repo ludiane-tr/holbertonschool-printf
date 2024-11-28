@@ -19,7 +19,7 @@ The new function use a standard library. <br />
 
 ### Fonctions Prototypes:
 
-int _printf(const char *format, ...); <br />
+*int _printf*(const char *format, ...); <br />
 int _int(va_list args); <br />
 int _str(va_list args); <br />
 int _putchar(char c); <br />
