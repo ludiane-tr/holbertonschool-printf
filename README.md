@@ -17,13 +17,13 @@
 > gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 
-### function description:
+### Function description:
 
 _printf is custom part of standar function printf. <br />
 The Produce outpout according to a specifers format. <br />
 The function write to the standard outpout. <br />
 
-### Requirments:
+### Requirements:
 - [x] Allowed editors : vi, vim, emacs <br />
 - [x] Our files compile on Ubuntu 20.04 LTS <br />
 - [x] Our code of respect Betty code Style and Betty Doc <br />
