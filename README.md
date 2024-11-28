@@ -31,6 +31,15 @@ The function write to the standard outpout. <br />
 - [x] We have no more than five functions per file <br />
 - [x] All function prototypes can be found in main.h <br />
 
+### Authorized functions and macros
+- write (man 2 write) <br />
+- malloc (man 3 malloc) <br />
+- free (man 3 free) <br />
+- va_start (man 3 va_start) <br />
+- va_end (man 3 va_end) <br />
+- va_copy (man 3 va_copy) <br />
+- va_arg (man 3 va_arg) <br />
+
 ## Contain:
 
 ### Files:
