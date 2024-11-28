@@ -50,13 +50,13 @@ int _percent(va_list args); <br />
 int _format(const char result, va_list args); <br />
 
 ### Specifiers:
-| **Specifiers**|         Description           |
-|:-------------:|:-----------------------------:|
-|  **%c**       |Print a single character       |
-|  **%s**       |Print a string of character    |
-|  **%%**       |Print a percent character      |
-|  **%d**       |Print a decimal number         |
-|  **%i**       |Print an integer number        |
+| **Specifiers**|                Description               |
+|:-------------:|:----------------------------------------:|
+|  **%c**       |Print a single character                  |
+|  **%s**       |Print a string of character               |
+|  **%%**       |Print a literal '%' character             |
+|  **%d**       |Print a decimal number in base 10         |
+|  **%i**       |Print an integer number in base 10        |
 ## Autors
 > **TROUILLEFOU Ludiane** (ludiane-tr) C#25  <br />
 > **BAROUX Jordan** (JoBEph) C#25 <br />
