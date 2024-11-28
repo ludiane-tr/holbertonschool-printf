@@ -37,8 +37,8 @@ The function write to the standard outpout. <br />
 - **_percent.c:** 'function write the percent specifiers' <br />
 - **_char.c:** 'function print char' <br />
 - **_int.c:** 'function print a integer' <br />
-- **_putchar.c:** 'fuction write single character to the standard outpout' <br />
 - **_str.c:** 'function print sequence of characters terminated with a NULL' <br />
+- **_putchar.c:** 'fuction write single character to the standard outpout' <br />
 - **format.c:** 'function convert specifiers' <br />
 - **_printf:** 'function reproduce the standard library 'printf()' <br />
 - **main.c:** 'test function' <br />
@@ -46,14 +46,13 @@ The function write to the standard outpout. <br />
 - **man_3_printf:** 'Manuel _printf'
 
 ### Fonctions Prototypes:
-
-- int _printf(const char *format, ...); <br />
+- int _percent(va_list args); <br />
+- int _char (va_list args); <br />
 - int _int(va_list args); <br />
 - int _str(va_list args); <br />
 - int _putchar(char c); <br />
-- int _char (va_list args); <br />
-- int _percent(va_list args); <br />
 - int _format(const char result, va_list args); <br />
+- int _printf(const char *format, ...); <br />
 
 ### Specifiers:
 | **Specifiers**|                Description               |
