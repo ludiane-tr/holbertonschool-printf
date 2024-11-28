@@ -13,9 +13,10 @@
 
 
 ### function description:
-This Function recreate a part of fonctionalities of printf(). <br />
-The new function is called '_printf'. <br />
-The new function use a standard library. <br />
+
+- _printf is custom part of standar function printf. <br />
+- The Produce outpout according to a specifers format. <br />
+- The function write to the standard outpout. <br />
 
 ### Requirments:
 - [x] Allowed editors : vi, vim, emacs <br />
