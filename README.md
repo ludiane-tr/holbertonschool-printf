@@ -76,7 +76,7 @@ if (numb < 0) <br />
 		numb = -numb; <br />
 		result++; <br />
 
-- **format.c** <br />
+- **format.c:** <br />
 while (sps[i].spe) <br />
 	{ <br />
 		if (result == sps[i].spe) <br />
