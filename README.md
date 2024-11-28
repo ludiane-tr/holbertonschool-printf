@@ -4,7 +4,7 @@
 
 ### Environment:
 
-- Ubuntu 20.04
+- Ubuntu 20. LTS
 - GitHub
 
 ### Betty style:
