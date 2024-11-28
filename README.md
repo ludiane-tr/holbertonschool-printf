@@ -2,6 +2,10 @@
 
 ## Description:
 
+### Environment:
+
+- Ubuntu 22.04
+
 ### Betty style:
 
 - The code use the Betty style. <br />
@@ -58,6 +62,15 @@ The function write to the standard outpout. <br />
 |  **%%**       |Print a literal '%' character             |
 |  **%d**       |Print a decimal number in base 10         |
 |  **%i**       |Print an integer number in base 10        |
+
+### Exemple code:
+
+
+
+## Flow chart:
+
+
+
 ## Autors
 > **TROUILLEFOU Ludiane** (ludiane-tr) C#25  <br />
 > **BAROUX Jordan** (JoBEph) C#25 <br />
