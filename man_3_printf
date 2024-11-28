@@ -1,4 +1,4 @@
-.TH _PRINTF 3 "November 2024" "Holberton School Team Project" "User Commands"
+.TH _PRINTF PROJECT "November 2024" "Holberton School Team Project" "User Commands"
 
 .SH NAME
 _printf \- Custom formatted output conversion.
