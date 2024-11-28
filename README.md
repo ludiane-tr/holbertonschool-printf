@@ -14,9 +14,9 @@
 
 ### function description:
 
-- _printf is custom part of standar function printf. <br />
-- The Produce outpout according to a specifers format. <br />
-- The function write to the standard outpout. <br />
+_printf is custom part of standar function printf. <br />
+The Produce outpout according to a specifers format. <br />
+The function write to the standard outpout. <br />
 
 ### Requirments:
 - [x] Allowed editors : vi, vim, emacs <br />
@@ -42,13 +42,13 @@
 
 ### Fonctions Prototypes:
 
-int _printf(const char *format, ...); <br />
-int _int(va_list args); <br />
-int _str(va_list args); <br />
-int _putchar(char c); <br />
-int _char (va_list args); <br />
-int _percent(va_list args); <br />
-int _format(const char result, va_list args); <br />
+- int _printf(const char *format, ...); <br />
+- int _int(va_list args); <br />
+- int _str(va_list args); <br />
+- int _putchar(char c); <br />
+- int _char (va_list args); <br />
+- int _percent(va_list args); <br />
+- int _format(const char result, va_list args); <br />
 
 ### Specifiers:
 | **Specifiers**|                Description               |
