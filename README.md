@@ -19,7 +19,7 @@ The new function use a standard library. <br />
 
 ### Fonctions Prototypes:
 
-*int _printf*(const char *format, ...); <br />
+int _printf(const char *format, ...); <br />
 int _int(va_list args); <br />
 int _str(va_list args); <br />
 int _putchar(char c); <br />
@@ -36,7 +36,7 @@ int _format(const char result, va_list args); <br />
 - [x] All function prototypes can be found in main.h <br />
 
 ## Files:
-- *_percent.c:* 'function write the percent specifiers' <br />
+- **_percent.c:** 'function write the percent specifiers' <br />
 - _char.c: 'function print char' <br />
 - _int.c: 'function print a integer' <br />
 - _putchar.c: 'fuction write single character to the standard outpout' <br />
