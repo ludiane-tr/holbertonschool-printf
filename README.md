@@ -92,6 +92,7 @@ while (sps[i].spe) <br />
 
 ## Flow chart:
 
+![Flow chart fix](https://github.com/user-attachments/assets/6c090c88-8a11-4fc8-aae8-dadd9243b792)
 
 
 ## Autors
