@@ -12,7 +12,13 @@ int _str(va_list args)
 
 	if (str == NULL)
 	{
-		return (0);
+		_putchar('(');
+		_putchar('n');
+		_putchar('u');
+		_putchar('l');
+		_putchar('l');
+		_putchar(')');		
+		return(6);
 	}
 	while (str[i])
 	{
