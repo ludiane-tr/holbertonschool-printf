@@ -74,16 +74,16 @@ The function write to the standard outpout. <br />
 
 ### Examples:
 ```c
-_printf("Negative:[%d]\n", -762534);<br />
-Output:   Negative:[-762534]<br />
+_printf("Negative:[%d]\n", -762534);
+Output:   Negative:[-762534]
 ```
 ```c
-_printf("Character:[%c]\n", 'H');<br />
-Output:   Character:[H]<br />
+_printf("Character:[%c]\n", 'H');
+Output:   Character:[H]
 ```
 ```c
-_printf("Actual     : %s\n", "holberton");<br />
-Output:    Actual     : holberton<br />
+_printf("Actual     : %s\n", "holberton");
+Output:    Actual     : holberton
 ```
 
 ## Flow chart:
