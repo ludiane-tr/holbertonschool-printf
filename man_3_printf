@@ -1,7 +1,7 @@
 .TH _PRINTF PROJECT "November 2024" "Holberton School Team Project" "User Commands"
 
 .SH NAME
-_printf \- Custom formatted output conversion.
+_printf \- Custom formatted output conversion function.
 
 .SH SYNOPSIS
 .B #include "main.h"
@@ -9,74 +9,80 @@ _printf \- Custom formatted output conversion.
 .BI "int _printf(const char *" format ", ...);"
 
 .SH DESCRIPTION
-.B _printf
-is a custom implementation of the standard 
-.B printf
-function. It produces output according to a specified format, as described below. The function writes to the standard output 
-.B stdout.
+.B _printf is a custom implementation of the standard printf function. 
+.B It produces output according to a specified format, as described below. The function writes to the standard output,stdout.
 
 .PP
-The function 
+The 
 .B _printf
-returns the number of characters printed (excluding the null byte used to end output to strings).
+function returns the total number of characters printed (excluding the null byte used to terminate strings).
 
 .SH FORMAT
-The format string is composed of zero or more directives. Ordinary characters (without a '%' before them) are copied unchanged to the output. Each directive consists of a '%' character, possibly followed by:
-- A format flag,
-- A width,
-- A precision,
-- A conversion specifier.
+The format string contains zero or more directives. Ordinary characters (not preceded by a '%') are output as-is. Each directive starts with a '%' character, followed by optional components such as:
+.IP
+- Format flags,  
+- Field width,  
+- Precision,  
+- Conversion specifiers.  
 
 .PP
-The supported conversion specifiers are:
+The following conversion specifiers are supported:
 .TP
 .B %c
 Prints a single character.
 .TP
 .B %s
-Prints a string of characters.
+Prints a null-terminated string of characters.
 .TP
 .B %%
 Prints a literal '%' character.
 .TP
 .B %d, %i
-Prints an integer in base 10.
+Prints a signed integer in base 10.
 
 .SH RETURN VALUE
-On success, the function returns the number of characters printed (excluding the null byte). If an output error occurs, a negative value is returned.
+On success, 
+.B _printf
+returns the total number of characters printed (excluding the null byte). If an error occurs, the function returns a negative value.
 
 .SH FUNCTIONS
+The 
+.B _printf
+function relies on several helper functions for its implementation:
 .TP
 .B int _putchar(char c)
 Writes the character 
 .B c
 to 
 .B stdout.
-Returns 1 on success and -1 on error.
+Returns 1 on success, or -1 on error.
 .TP
 .B int _char(va_list args)
-Prints a character from the arguments list.
+Retrieves and prints a character from the variable argument list.
 .TP
 .B int _str(va_list args)
-Prints a string from the arguments list.
+Retrieves and prints a string from the variable argument list.
 .TP
 .B int _percent(va_list args)
-Prints a percent sign from the arguments list.
+Prints a literal '%' character.
 .TP
 .B int _int(va_list args)
-Prints an integer from the arguments list.
+Retrieves and prints an integer from the variable argument list.
 .TP
-.B int _format(const char result,va_list args)
-Selects the appropriate function based on the format specifier.
+.B int _format(const char result, va_list args)
+Determines and invokes the appropriate function based on the given format specifier.
 
 .SH EXAMPLES
+Here are some examples demonstrating the use of 
+.B _printf:
 .nf
 #include "main.h"
 
 int main(void) {
     _printf("Character: %c\\n", 'A');
+    _printf("String: %s\\n", "Hello, world!");
     _printf("Percent: %%\\n");
-    _printf("Integer: %d\\n", 123);
+    _printf("Integer: %d\\n", 12345);
     return (0);
 }
 .fi
@@ -85,4 +91,4 @@ int main(void) {
 Written by Jordan BAROUX and Ludiane TROUILLEFOU.
 
 .SH BUGS
-No known bugs.
+Currently, there are no known bugs. Please report any issues to the project maintainers.
