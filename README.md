@@ -81,10 +81,6 @@ Output:   Negative:[-762534]
 _printf("Character:[%c]\n", 'H');
 Output:   Character:[H]
 ```
-```c
-_printf("Actual     : %s\n", "holberton");
-Output:    Actual     : holberton
-```
 
 ## Flow chart:
 
