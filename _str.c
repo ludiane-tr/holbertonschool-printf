@@ -17,8 +17,8 @@ int _str(va_list args)
 		_putchar('u');
 		_putchar('l');
 		_putchar('l');
-		_putchar(')');		
-		return(6);
+		_putchar(')');
+		return (6);
 	}
 	while (str[i])
 	{
