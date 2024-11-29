@@ -52,7 +52,7 @@ The function write to the standard outpout. <br />
 - **_printf:** 'function reproduce the standard library 'printf()' <br />
 - **main.c:** 'test function' <br />
 - **main.h:** 'The header file contain all prototypes, libraries and the struct' <br />
-- **man_3_printf:** 'Manuel _printf'
+- **man_3_printf:** 'Manual _printf'
 
 ### Fonctions Prototypes:
 - int _percent(va_list args); <br />
@@ -72,23 +72,19 @@ The function write to the standard outpout. <br />
 |  **%d**       |Print a decimal number in base 10         |
 |  **%i**       |Print an integer number in base 10        |
 
-### Exemple code:
-- **_printf:** <br />
-if (!format || (format[0] == '%' && !format[1])) <br />
-		return (-1); <br />
-
-- **_int:** <br />
-if (numb < 0) <br />
-	{ <br />
-		_putchar('-'); <br />
-		numb = -numb; <br />
-		result++; <br />
-
-- **format.c:** <br />
-while (sps[i].spe) <br />
-	{ <br />
-		if (result == sps[i].spe) <br />
-			return (sps[i].f(args)); <br />
+### Examples:
+```c
+_printf("Negative:[%d]\n", -762534);<br />
+Output:   Negative:[-762534]<br />
+```
+```c
+_printf("Character:[%c]\n", 'H');<br />
+Output:   Character:[H]<br />
+```
+```c
+_printf("Actual     : %s\n", "holberton");<br />
+Output:    Actual     : holberton<br />
+```
 
 ## Flow chart:
 
